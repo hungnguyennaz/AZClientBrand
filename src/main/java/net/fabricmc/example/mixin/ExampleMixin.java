@@ -13,5 +13,4 @@ public abstract class ExampleMixin {
     private static void getClientModName(CallbackInfoReturnable<String> callback) {
         callback.setReturnValue("AZClient");
         }
-    }
 }
